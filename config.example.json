@@ -1,0 +1,104 @@
+{
+  "site": {
+    "title": "Tiệm Trà An Nhiên",
+    "description": "Một tách trà – Một khoảng lặng cho tâm hồn.",
+    "tagline": "Thưởng trà để tìm lại sự an yên.",
+    "url": "https://annhien.com",
+    "language": "vi"
+  },
+  "contact": {
+    "address": "123 Đường Lê Lợi, Quận 1, TP. Hồ Chí Minh",
+    "phone": "+84123456789",
+    "email": "hello@annhien.com",
+    "hotline": "+84123456789",
+    "hours": "08:00 - 21:00",
+    "closedDay": "Thứ 2"
+  },
+  "social": {
+    "facebook": "https://facebook.com/annhien",
+    "instagram": "https://instagram.com/annhien",
+    "tiktok": "https://tiktok.com/@annhien",
+    "zalo": "https://zalo.me/123456789"
+  },
+  "location": {
+    "latitude": 10.777169960165627,
+    "longitude": 106.70270551533697,
+    "mapEmbed": "https://www.google.com/maps/embed?pb=..."
+  },
+  "colors": {
+    "lightGreen": "#A8B89D",
+    "darkGreen": "#5C7A56",
+    "cream": "#F8F7F2",
+    "brown": "#8A6A4A",
+    "white": "#FFFFFF",
+    "black": "#1a1a1a"
+  },
+  "typography": {
+    "displayFont": "Playfair Display",
+    "bodyFont": "Poppins"
+  },
+  "analytics": {
+    "googleAnalyticsId": "G-XXXXXXXXXX",
+    "facebookPixelId": "YOUR_PIXEL_ID",
+    "googleMapsApiKey": "YOUR_MAPS_KEY"
+  },
+  "payment": {
+    "enabled": false,
+    "methods": ["cash", "banking", "momo", "zalopay"],
+    "currency": "VND",
+    "shippingFee": 25000,
+    "minOrder": 0
+  },
+  "promotion": {
+    "enabled": true,
+    "discount": 20,
+    "discountType": "percent",
+    "endDate": "2024-12-31",
+    "description": "Khai trương giảm 20% toàn bộ thức uống"
+  },
+  "features": {
+    "darkMode": true,
+    "cart": true,
+    "reviews": true,
+    "gallery": true,
+    "booking": false,
+    "delivery": false,
+    "membership": false
+  },
+  "api": {
+    "baseUrl": "https://api.annhien.com",
+    "version": "v1",
+    "timeout": 10000
+  },
+  "seo": {
+    "metaTitle": "Tiệm Trà An Nhiên | Nơi Lắng Nghe Tâm Hồn",
+    "metaDescription": "Tiệm Trà An Nhiên - Một tách trà, một khoảng lặng cho tâm hồn. Thức uống trà chất lượng cao, nguyên liệu tự nhiên, không gian thư giãn.",
+    "keywords": ["trà sữa", "trà trái cây", "tiệm trà", "An Nhiên", "đặt trà online"],
+    "ogImage": "https://annhien.com/images/og-image.jpg",
+    "robots": "index, follow"
+  },
+  "email": {
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "user": "your-email@gmail.com",
+      "password": "your-app-password"
+    },
+    "from": "hello@annhien.com",
+    "adminEmail": "admin@annhien.com",
+    "supportEmail": "support@annhien.com"
+  },
+  "database": {
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "database": "annhien_db",
+    "user": "annhien_user",
+    "password": "secure_password"
+  },
+  "backup": {
+    "enabled": true,
+    "frequency": "daily",
+    "storage": "cloud"
+  }
+}
